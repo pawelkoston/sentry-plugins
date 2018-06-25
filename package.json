@@ -16,7 +16,13 @@
     "lodash-webpack-plugin": "^0.11.4",
     "node-libs-browser": "^0.5.2",
     "uglify-js": "2.4.x",
-    "webpack": "^2.2.0-rc.3"
+    "webpack": "^2.2.0-rc.3",
+    "snyk": "^1.83.0"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
