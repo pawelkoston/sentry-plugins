@@ -10,13 +10,13 @@
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "compression-webpack-plugin": "^0.3.0",
-    "extract-text-webpack-plugin": "webpack/extract-text-webpack-plugin#cbd4690",
-    "lodash": "^4.17.4",
+    "compression-webpack-plugin": "^0.3.2",
+    "extract-text-webpack-plugin": "2.0.0",
+    "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
     "node-libs-browser": "^0.5.2",
     "uglify-js": "2.4.x",
-    "webpack": "^2.2.0-rc.3"
+    "webpack": "^2.2.0"
   },
   "private": true
 }
