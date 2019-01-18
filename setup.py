@@ -49,7 +49,6 @@ class BuildAssetsCommand(BuildAssetsCommand):
         return [
             'src/sentry_plugins/hipchat_ac/static/hipchat_ac/dist',
             'src/sentry_plugins/jira/static/jira/dist',
-            'src/sentry_plugins/sessionstack/static/sessionstack/dist',
         ]
 
 
@@ -106,7 +105,6 @@ setup(
         'sentry.apps': [
             'hipchat_ac = sentry_plugins.hipchat_ac',
             'jira_ac = sentry_plugins.jira_ac',
-            'sessionstack = sentry_plugins.sessionstack',
         ],
         'sentry.plugins': [
             'amazon_sqs = sentry_plugins.amazon_sqs.plugin:AmazonSQSPlugin',
@@ -124,7 +122,6 @@ setup(
             'pivotal = sentry_plugins.pivotal.plugin:PivotalPlugin',
             'pushover = sentry_plugins.pushover.plugin:PushoverPlugin',
             'segment = sentry_plugins.segment.plugin:SegmentPlugin',
-            'sessionstack = sentry_plugins.sessionstack.plugin:SessionStackPlugin',
             'slack = sentry_plugins.slack.plugin:SlackPlugin',
             'splunk = sentry_plugins.splunk.plugin:SplunkPlugin',
             'victorops = sentry_plugins.victorops.plugin:VictorOpsPlugin',
